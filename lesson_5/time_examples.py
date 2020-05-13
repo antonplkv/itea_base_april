@@ -20,3 +20,7 @@ b = 10
 
 def number_func(a, b):
     return any([a == b, abs(a-b) == 5, a + b == 5])
+
+
+[1, 1, 2, 2, 3]
+{1: 2, 2: 2, 3:1}
