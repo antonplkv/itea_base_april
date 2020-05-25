@@ -10,7 +10,10 @@ root = Tk()
 def get_name():
     label.configure(text=entry.get())
     entry.delete(2, 4)
+    tl.destroy()
 
+
+tl = Toplevel()
 
 entry = Entry(width=256, font='Arial 20')
 label = Label(text='Введите свое имя и нажмите на кнопку', font='Arial 20')

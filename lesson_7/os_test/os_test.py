@@ -17,3 +17,7 @@ print(os.getcwd())
 
 print('New working directory files')
 print(os.listdir())
+
+
+r = dict(arg1=2, arg2=2)
+print(r)
